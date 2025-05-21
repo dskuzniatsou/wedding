@@ -8,17 +8,27 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background: url('./IMG_8789.webp') no-repeat center center fixed;
+      font-weight: 600;
+      /* background: url('photo_2025-05-06_21-49-13-_1_.webp') no-repeat center center fixed;
       background-size: cover;
+      
+background-position: center;
+background-repeat: no-repeat; */
+background-image: url('photo_2025-05-06_21-49-13-_1_.webp');
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
       margin: 0;
       padding: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
+      max-width: 576px;
     }
     .invitation {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(35, 23, 23, 0.2);
       padding: 20px;
       border-radius: 16px;
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -26,6 +36,7 @@
       width: 100%;
       text-align: center;
       backdrop-filter: blur(8px);
+
     }
     .invitation h1 {
       font-family: 'Great Vibes', cursive;
@@ -65,6 +76,7 @@
     }
     .detail-item {
       display: flex;
+      flex-direction: column;
       align-items: center;
       gap: 8px;
     }
@@ -76,11 +88,9 @@
 <body>
 
   <div class="invitation">
-    <h1>Дорогие друзья и близкие!</h1>
-    <p>С радостью приглашаем вас на важное событие в нашей жизни — нашу свадьбу!</p>
-
+   
     <div class="names">
-      Дмитрий и Дарья
+      Dmitry & Daria
     </div>
 
     <div class="date">
@@ -92,15 +102,28 @@
          <span>Роспись в 15:00 (ЗАГС)</span>
          
       </div>
-      
+      <br>
       <div class="detail-item">
-         <span>Начало банкета в 16:30</span>
+         <span>Начало Welcom-фуршета в 15:45</span>
+
       </div>
       <div class="detail-item">
-         <span>Кафе "Застолье", г. Жлобин</span>
+         <span>Начало банкета в 17:00</span>
+         <span>Место - Кафе "Застолье", г. Жлобин</span>
       </div>
     </div>
-
+    <p></p>
+    <p>Уважаемые гости!<br>
+      Если в этот день вы захотите подарить нам цветы, пожалуйста, выберите нежные, пастельные оттенки — они особенно порадуют невесту,<br>
+<br>
+      либо<br>
+      <br>
+     Вместо букета вы можете подарить нам бутылку алкоголя, которая пополнит бар молодоженов - и особенно порадует жениха.
+     <br><br>
+      P.S. Мы будем рады любому вашему выбору ❤
+    
+    </p>
+    
     <p>Будем счастливы разделить этот день с вами!</p>
   </div>
 
